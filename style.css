@@ -100,12 +100,16 @@ Version: 1.0
 }
 
 .imgbox {
+    margin-top: 20px;
     padding: 0 0 30px 30px;
   }
   
 .imgbox .img {
     display: inline-block;
-    box-shadow: -30px 30px 0 #bf506d;
+  }
+
+  .border {
+    color:#bf506d
   }
 
 .phone__contact {

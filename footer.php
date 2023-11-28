@@ -1,5 +1,5 @@
 
-<?php edit_post_link(); ?>
+
 <html>
 <footer>
         <div class="footer pb-3 pt-3 pt-md-5 pb-md-5">

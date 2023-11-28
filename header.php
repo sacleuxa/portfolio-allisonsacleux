@@ -32,13 +32,13 @@
             <div class="collapse navbar-collapse navbar__Link-toggle" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="navbar__items">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="http://localhost/wordpress/">Home</a>
                     </li>
                     <li class="navbar__items">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="http://localhost/wordpress/about/">About</a>
                     </li>
                     <li class="navbar__items">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="http://localhost/wordpress/contact/">Contact</a>
                     </li>
                 </ul>
             </div>
