@@ -1,0 +1,148 @@
+
+/*
+Theme Name: Allison Sacleux Portfolio
+Theme URI: https://www.allysacleux.com/
+Author: Nom de l’auteur
+Author URI: https://www.allysacleux.com/
+Description: Description du thème en quelques mots
+Version: 1.0
+*/
+/* Navbar Css for all pages */
+
+
+
+.navbar a {
+
+    margin-left: 5px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100px;
+    float: right;
+
+}
+
+.navbar a:hover {
+    background-color: #627cab;
+    color: #fff;
+  }
+
+/* CSS for about section */
+.about {
+    margin-top: 20px;
+}
+
+.about a {
+    background-color: #bf506d;
+    color: #fff;
+    border:none;
+}
+
+.about a:hover {
+    background-color: #627cab;
+    transition: all .3s;
+}
+
+
+.about p {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300px;
+    font-size: xx-large;
+    align-items: center;
+
+}
+
+.paragraph__aboutme {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.h3  {
+    margin-top: 15px;
+    font-size: medium;
+    font-weight: 200;
+}
+
+/* Experience section */
+
+.competence {
+    margin-top: 20px;
+}
+
+/* Project section */
+
+.project {
+    margin-top: 20px;
+}
+.project a {
+    background-color: #bf506d;
+    color: #fff;
+    border:none;
+}
+
+.project a:hover {
+    background-color: #627cab;
+    transition: all .3s;
+}
+
+.card-img-top {
+    height: 286px;
+    width: 273px;
+}
+/* Contact Page Css */
+.mainsection {
+    padding-top: 50px;
+}
+
+.h1__contact {
+    padding-top: 100px;
+}
+
+.imgbox {
+    padding: 0 0 30px 30px;
+  }
+  
+.imgbox .img {
+    display: inline-block;
+    box-shadow: -30px 30px 0 #bf506d;
+  }
+
+.phone__contact {
+    margin-top: -20px;
+    font-size:xx-large;
+    font-weight: 300px;
+    color:#bf506d
+}
+
+.contactform span:hover {
+       background-color: #627cab;
+        transition: all .3s;
+}
+
+.contactform span {
+    background-color: #bf506d;
+    color: #fff;
+    border:none;
+}
+
+ /* Footer Css for all pages */
+
+ .footer h4 {
+    color: #bf506d;
+ }
+ .socials {
+    padding: 10pt;
+ }
+
+ .socials a {
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    padding-left: 10pt;
+    color: #627cab;
+ }
+ .socials a:hover {
+    color: #bf506d;
+    transition: all .3s;
+}
