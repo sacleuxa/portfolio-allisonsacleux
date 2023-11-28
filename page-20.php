@@ -2,6 +2,8 @@
   //find header.php
   get_header(); ?>
 
+
+
 <?php 
     //chemin pour récupérer le chemin du répertoire Theme
      $urlTheme = get_template_directory_uri();
