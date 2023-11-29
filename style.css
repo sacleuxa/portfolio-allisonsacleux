@@ -9,8 +9,10 @@ Version: 1.0
 */
 /* Navbar Css for all pages */
 
+
 .navbar {
-    background-color: #bf506d; 
+    background-color: #dfe7f4; 
+    margin-top: -40px;
 }
 
 .navbar a {
@@ -29,14 +31,23 @@ Version: 1.0
   }
 
 /* CSS for about section */
+
+.homepage__pic {
+    width: 550px;
+    height: 430px;
+}
+
 .about {
     margin-top: 20px;
 }
 
 .about a {
     background-color: #bf506d;
+    font-size: 20px;
     color: #fff;
     border:none;
+    float: right;
+    margin-right: 40px;
 }
 
 .about a:hover {
@@ -46,18 +57,21 @@ Version: 1.0
 
 
 .about p {
-    padding: 10px;
+    padding: 50px 10px 10px;
+    text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300px;
-    font-size: xx-large;
+    font-size: 40px;
     align-items: center;
 
 }
 
-.paragraph__aboutme {
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 50px;
+.aboutme__paragraph {
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    text-align: left;
 }
 
 .h3  {
@@ -69,13 +83,17 @@ Version: 1.0
 /* Experience section */
 
 .competence {
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 /* Project section */
 
+.project h2 {
+    padding-bottom: 10px;
+}
+
 .project {
-    margin-top: 20px;
+    margin-top: 50px;
 }
 .project a {
     background-color: #bf506d;
@@ -89,9 +107,21 @@ Version: 1.0
 }
 
 .card-img-top {
-    height: 286px;
-    width: 273px;
+    min-height: 286px;
+    min-width: 273px;
 }
+
+/* About page css*/
+
+.frame {
+    width: 500px;
+    height: 455px;
+    border: 3px solid #bf506d;
+    background: #bf506d;
+    margin: 0px;
+    padding: 0px 0px 20px 20px;
+}
+
 /* Contact Page Css */
 .mainsection {
     padding-top: 50px;
@@ -99,10 +129,11 @@ Version: 1.0
 
 .h1__contact {
     padding-top: 100px;
+    padding-left: 190px;
 }
 
 .imgbox {
-    margin-top: 20px;
+    margin-top: 40px;
     padding: 0 0 30px 30px;
     color: #bf506d;
   }
@@ -111,9 +142,6 @@ Version: 1.0
     display: inline-block;
   }
 
-  .border {
-    color:#bf506d
-  }
 
 .phone__contact {
     margin-top: -20px;
@@ -136,10 +164,16 @@ Version: 1.0
  /* Footer Css for all pages */
 
  .footer h4 {
+    padding-top: 0px;
     color: #bf506d;
+    font-size: 35px;
+ }
+
+ .footer p {
+    font-size: 20px;
  }
  .socials {
-    padding: 10pt;
+    padding: 10px;
  }
 
  .socials a {
@@ -148,6 +182,7 @@ Version: 1.0
     align-items: center;
     padding-left: 10pt;
     color: #627cab;
+    font-size: 24px;
  }
  .socials a:hover {
     color: #bf506d;

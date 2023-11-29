@@ -19,7 +19,7 @@
                 <a class="btn btn-primary" href="about.html">About me</a>           
              </div>
              <div class="col-12 col-md-6">
-                <img src="<?php echo $urlTheme."/image/allisonbarcelona.jpg"?>">
+                <img class="homepage__pic" src="<?php echo $urlTheme."/image/allisonbarcelona.jpg"?>">
             </div>
         </div>
     </div>
@@ -52,7 +52,7 @@
 
 <section class="project">
     <div class="container">
-        <h2>Title</h2>
+        <h2>Projects</h2>
                 <div class="row">
             <div class="col-12 col-md-4">
                 <div class="card" style="width: 18rem;">
