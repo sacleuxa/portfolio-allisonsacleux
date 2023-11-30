@@ -80,6 +80,10 @@ Version: 1.0
     font-weight: 200;
 }
 
+.wpforms {
+    display: block;
+}
+
 /* Experience section */
 
 .competence {
