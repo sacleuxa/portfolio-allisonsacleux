@@ -82,6 +82,10 @@ Version: 1.0
     text-align: left;
 }
 
+.wp-block-heading {
+    padding-bottom: 20px;
+}
+
 .h3  {
     margin-top: 15px;
     font-size: medium;
