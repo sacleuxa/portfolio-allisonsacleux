@@ -15,13 +15,14 @@
       <div class="row">
         <div class="col-12 col-md-6 text-center">
           <div class="h1__contact">
-            <p> Get in Touch! </p>
+            <p><?php $post = get_post(106) ?>
+              <?php echo $post->post_content ?> </p>
           </div>
           <div class="phone__contact">
             <i class="bi bi-telephone-inbound"></i>
           </div>
         </div>
-        <div class="p-3 mb-2 bg-warning col-12 col-md-6">
+        <div class="col-12 col-md-6">
           <div class="imgbox">
             <img src="<?php echo $urlTheme."/image/webdeveloper-allison.jpg"?>">
           </div>
