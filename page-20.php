@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col-12 text-center">
                 <div class="imgbox">
-                    <img class="frame" src="<?php echo $urlTheme."/image/allisoncouch.jpg"?>">
+                    <img class="frame" src="<?php echo $urlTheme."/image/allison-webdeveloper.jpg"?>">
                 </div>
                 <div class="aboutme__paragraph">
                     <div class="col-12">

@@ -7,21 +7,29 @@ Author URI: https://www.allysacleux.com/
 Description: Description du thème en quelques mots
 Version: 1.0
 */
+
 /* Navbar Css for all pages */
 
 
 .navbar {
     background-color: #dfe7f4; 
     margin-top: -40px;
+    margin-bottom: 50px;
+   
+}
+
+.navbar-brand a {
+    font-size: 35px;
 }
 
 .navbar a {
 
-    margin-left: 5px;
-    padding: 10px;
+    margin-left: 20px;
+    padding: 20px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100px;
-    float: right;
+    float: left;
 
 }
 
@@ -80,9 +88,6 @@ Version: 1.0
     font-weight: 200;
 }
 
-.wpforms {
-    display: block;
-}
 
 /* Experience section */
 
@@ -110,30 +115,22 @@ Version: 1.0
     transition: all .3s;
 }
 
-.card-img-top {
-    min-height: 286px;
-    min-width: 273px;
-}
+.card img {
+    min-height: 250px;
+    min-width: 250px;
+}   
 
-/* About page css*/
-
-.frame {
-    width: 500px;
-    height: 455px;
-    border: 3px solid #bf506d;
-    background: #bf506d;
-    margin: 0px;
-    padding: 0px 0px 20px 20px;
-}
 
 /* Contact Page Css */
+
 .mainsection {
     padding-top: 50px;
 }
 
 .h1__contact {
-    padding-top: 100px;
-    padding-left: 190px;
+    padding-top: 250px;
+    padding-left: 150px;
+    font-size: 100px;
 }
 
 .imgbox {
@@ -144,22 +141,26 @@ Version: 1.0
   
 .imgbox .img {
     display: inline-block;
+    height: 500px;
+    width:415px;
+    object-fit: scale-down;
   }
 
 
 .phone__contact {
     margin-top: -20px;
+    margin-left: -80px;
     font-size:xx-large;
     font-weight: 300px;
     color:#bf506d
 }
 
-.contactform span:hover {
-       background-color: #627cab;
-        transition: all .3s;
+.mainsection button:hover {
+    background-color: #627cab;
+    transition: all .3s;
 }
 
-.contactform span {
+.btn_custom{
     background-color: #bf506d;
     color: #fff;
     border:none;
@@ -191,4 +192,9 @@ Version: 1.0
  .socials a:hover {
     color: #bf506d;
     transition: all .3s;
+}
+.btn_custom{
+    background-color: #bf506d;
+    color: #fff;
+    border:none;
 }

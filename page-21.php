@@ -21,18 +21,19 @@
             <i class="bi bi-telephone-inbound"></i>
           </div>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="p-3 mb-2 bg-warning col-12 col-md-6">
           <div class="imgbox">
-            <img src="<?php echo $urlTheme."/image/allisoncoffee.jpg"?>">
+            <img src="<?php echo $urlTheme."/image/webdeveloper-allison.jpg"?>">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="mainsection contactform">
+  
+  <section class="mainsection contactform"> <!--
   <form action="formhandler.php" method="post">
-    
+  
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-12">
@@ -71,9 +72,10 @@
                 placeholder="Please write your message"></textarea>
             </div>
 
-            <span class="btn btn-primary" onclick="verifmss()">Send message</span>
-          
+          <button class="btn btn-primary btn_custom" onclick="verifmss()">Send message</button> -->
+            <?php the_content() ?> 
           </form>
+         
         </div>
       </div>
     </div>
